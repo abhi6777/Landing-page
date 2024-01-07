@@ -1,5 +1,6 @@
 body{
-     background-color: aquamarine;
+     margin: 0;
+     padding: 0;
 }
 
           /* Navigation section for sec 1 */
@@ -84,4 +85,118 @@ body{
      background-color: rgb(82, 82, 232);
      color: #e5e7eb;
      font-weight: bolder;
+}
+
+               /* this is the section 2 */
+
+
+#sec-2{
+     margin-top: 50px;
+     display: grid;
+     justify-content: center;
+     /* align-items: center; */
+}
+
+#sec-2 h1{
+     margin-left: 300px;
+}
+
+#sec-2hero img{
+     height: 200px;
+     width: 200px;
+     border: 2px black;
+     border-radius: 15px;
+     margin-right: 50px;
+}
+
+#img{
+     display: flex;
+     flex-direction: row;
+}
+
+#img .imgr p {
+     display: flex;
+     width: 150px;
+     align-items: center;
+     justify-content: center;
+}
+
+               /* section 3 */
+
+#sec-3{
+     margin-top: 100px;
+     background-color: #e5e7eb;
+     padding: 100px;
+}
+
+#quote{
+     margin-left: 150px;
+     margin-right: 150px;
+     font-size: 36px;
+     font-style: italic;
+     color: #1F2937;
+}
+
+#name{
+     margin-right: 150px;
+     margin-top: -30px;
+     display: flex;
+     font-size: 30px;
+     font-weight: 800;
+     justify-content: end;
+}
+
+               /* sec 4 */
+
+#sec-4{
+     display: flex;
+     flex-direction: row;
+     padding: 100px;
+     justify-content: center;
+     align-items: center;
+}
+
+.container{
+     display: flex;
+     flex-direction: row;
+     background-color: #3882F6;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     border-radius: 10px;
+     align-items: center;
+}
+
+.main{
+     font-size: 36px;
+     font-weight: bolder;
+}
+
+.nd{
+     font-size: 30px;
+     margin-top: -30px;
+}
+
+.container button{
+     height: 50px;
+     width: 170px;
+     background-color: #3882F6;
+     border: 3px solid white;
+     border-radius: 10px;
+     color: #e5e7eb;
+     font-size: 20px;
+     margin-left: 100px;
+}
+
+
+               /* footer */
+
+#footer{
+     display: flex;
+     justify-content: center;
+     background-color: #1F2937;
+     color: #f9faf8;
+     padding: 20px;
+     font-size: 24px;
 }
